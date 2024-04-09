@@ -10,7 +10,7 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Assalamualaikum, Hai Saya Rian Septiana(Owner VE-AI)";
+        Text.innerHTML = "Assalamualaikum, Saya Rian Owner VE-AI";
         Text.classList.add('text-animate');
     }else if (Iya.value == 2) {
         Text.classList.remove('text-animate');
@@ -53,3 +53,4 @@ Iya.addEventListener("click", function () {
         Iya.remove();
     }
 });
+    
